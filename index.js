@@ -3,6 +3,7 @@ const fs = require('fs');
 const hostname = '127.0.0.1';
 const port = 3000;
 
+//c hhtp server
 const articles = require('../cwp-05/articles.json');
 const readAll = require('./readAll.js').readAll;
 const read = require('./read.js').read;
